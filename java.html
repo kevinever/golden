@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+
+
+<script>
+
+/*var button = document.querySelector('.button');
+
+
+let  work = ()=>{
+alert('it works');
+}
+
+
+button.addEventListener("click",work);
+*/
+
+
+var color1 = document.querySelector(".color1");
+var color2 = document.querySelector(".color2");
+
+
+function setGradient() {
+  body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+  color1.style.background = "linear-gradient(to right, "+color1.value+"," +color2.value+")";
+  color2.style.background = "linear-gradient(to right, "+color1.value+","+color2.value+")"
+}
+
+
+
+function Gradient() {
+  //test.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+  color1.style.background = "linear-gradient(to right, "+color1.value+"," +color2.value+")";
+  color2.style.background = "linear-gradient(to right, "+color1.value+","+color2.value+")"
+}
+
+
+color1.addEventListener("input", setGradient);
+
+color2.addEventListener("input", setGradient);
+
+
+</script>
+
+</head>
+
+<body>
+
+
+<input class="color1" type="color" name="color1" value="#00ff00">
+						<input class="color2" type="color" name="color2" value="#ff0000"></h1>
+
+
+<button class="button">submit</button>
+
+</body>
+</html>

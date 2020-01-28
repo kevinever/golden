@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+	<title>golden pork joint || pork meet || smart pork</title>
+  
+	<meta name="description" content="we deal with all kind of pork , for meat and breeds">
+	<meta name="author" content="golden smart pork">
+	<meta charset="utf-8">
+	<meta name="keyword" description="meat, pork, akabenzi, icyororo , ingurube">
+
+
+<style>
+
+body{
+margin:0;
+padding:0;
+font-family:arial;
+	
+
+}
+.active{
+background-color:black;
+}
+header{
+background-color:rgb(255,0,0);
+height:180px;
+color:#ffcc00;
+padding-top:20px;
+text-align:center;
+}
+.header{
+background-color:rgba(0,0,0,0.5);
+height:210px;
+position:relative;
+top:-50px;
+bottom:50px;
+
+
+}.container{
+background-color:rgba(0,0,0,0.5);
+height:100%;
+
+
+}.heade{
+background-color:rgba(0,0,0,0.5);
+height:100%;
+
+
+
+}
+h1{
+font-size:36px;
+padding:78px;
+position:relative:
+top:-50px;
+text-transform:uppercase;
+word-spacing:20px;
+
+}
+
+nav{
+
+float:left;
+background-color:rgb(255,0,0);
+width:190px;
+height:400px;
+padding:0;
+clear:both;
+margin-right:10px;	
+}
+
+nav ul{
+text-decoration:none;
+list-style-type:none;
+margin:0 auto;
+margin-left:-40px;
+
+}
+
+nav ul li a{
+text-decoration:none;
+margin-bottom:20px;
+display:block;
+border-bottom: 5px solid white;
+color:#ffcc00;
+text-align:center;
+padding:20px;
+font-family:tahoma;
+font-size:16px;
+text-transform:capitalize;
+}
+nav ul li a:hover {
+
+background-color:black;
+margin:0px;
+padding:20px;
+border-bottom: 5px solid white;
+color:white;
+}
+
+section{
+margin:0 auto;
+padding-right:10px;
+padding-top:50px;
+letter-spacing:3px;
+text-indent:20px;
+text-align:justify;
+}
+footer{
+background-color:rgb(255,0,0);
+height:180px;	
+clear:both;	
+text-align:center;
+color:#ffcc00;
+overflow:hidden;
+}
+
+h2{
+
+text-align:center;
+
+}
+#para{
+columns:300px 2;
+
+
+}
+.col-1,.col-2,.col-3,.col-4{
+float:left;	
+cursor:pointer;
+border-right: 3px double white;
+}
+.col-2{
+
+position:relative;
+left:300px;
+word-spacing:8px;
+
+}
+.col-3{
+
+position:relative;
+left:500px;
+word-spacing:8px;
+}
+.col-4{
+
+position:relative;
+left:750px;
+
+}
+
+.row{
+width:100%;
+}
+hr{
+rotate-transform:90;
+}
+button{
+padding:5px;
+background:#0099ff;
+text-transform:uppercase;
+border-style:dashed;
+border-right:2px solid red;
+border-left:2px solid red;
+cursor:pointer;
+}
+button:hover{
+background-color:rgba(255,0,0,0.3);
+color:#ffcc00;
+border:0px solid;
+}
+
+button a{
+text-decoration:none;
+
+
+}
+.icon{
+width:50px;
+height:50px;
+
+}
+.contact{
+
+text-align:center;
+color:#ffcc00;
+clear:both;
+
+}
+</style>
+
+
+
+</head>
+
+
+
+<body>
+
+<header>
+<div class="header">
+<h1>&spades; golden smart pork outlet joint &spades;</h1>
+</div>
+</header>
+
+<nav>
+<div class="heade">
+<ul>
+<li><a href="index.html">home</a></li>
+<li><a href="#">our products</a></li>
+<li><a href="#" class="active">register</a></li>
+<li><a href="#">contact</a></li>
+</ul>
+</div>
+</nav>
+<section>
+<div class="wraper">
+<div class="btn_style" class="login_btn">
+
+</div>
+
+<div class="btn_style" class="signup_btn">
+<form action="register.php" method="POST">
+
+Pig Name:<input type="text" name="pig_name"><br>
+Pig Breed:<input type="text" name="pig_breed"><br>
+born Date:<input type="text" name="born_date"><br>
+<input type="submit" name="submit" value="submit">
+</form>
+</div>
+
+
+</div>
+</section>
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-1">copyright &copy; 2020<br>copyright &copy; 2020<br>copyright &copy; 2020<br>copyright &copy; 2020<br></div>
+
+<div class="col-2">   our links<br>facebook <span class='icon'>&hearts;</span><br>twiter <span class='icon'>&diams;</span><br>instagram  <span class='icon'>&clubs;</span>     </div>
+<div class="col-3">     <p>subscribe for more updates    </p><p>Email:</p><p><input type="text" >    <button><a href="">subscribe</a></button>    </p></div>
+<div class="col-4">   follow us on:   </div>
+</div>
+
+<div class="contact"><hr>
++250786887878 || +12345678904
+</div></div>
+</footer>
+
+
+
+
+
+
+</body>
+</html>
